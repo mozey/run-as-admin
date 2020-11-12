@@ -23,3 +23,8 @@ Build executable
 
 [check-if-application-is-running-as-administrator-in-golang](http://stackoverflow.com/questions/27366298/check-if-application-is-running-as-administrator-in-golang)
 
+
+# Without a manifest
+
+See [this technique](https://stackoverflow.com/a/59147866/639133), "...run as a standard user in most cases, and only elevate when needed. I use this in command line tools where most functions don't need admin rights"
+
